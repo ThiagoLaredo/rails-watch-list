@@ -1,0 +1,53 @@
+// Specific CSS for your home-page
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+
+}
+.lists {
+  margin: 30px 0;
+}
+
+.lists ul {
+font-size: 24px;
+margin-bottom: 1.25rem;
+list-style: none;
+padding-left: 0;
+
+}
+
+.lists li::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-image: linear-gradient(#0c92f6, #1954ec);
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #0e1013;
+  position: relative;
+  top: -1px;
+  margin-right: 0.625rem;
+
+}
+
+.lists li::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  margin-top: 0.625rem;
+  position: relative;
+}
+
+.lists li > a {
+  margin:0;
+  text-decoration: none;
+  color: #c0c9df;
+
+
+}

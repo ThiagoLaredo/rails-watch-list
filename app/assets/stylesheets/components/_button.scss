@@ -1,0 +1,50 @@
+.btn-delete {
+  background-color: #E82623;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  margin: 0;
+}
+
+
+.btn-delete:hover {
+  background-color: #FF2A26;
+  color: #ffffff;
+}
+
+.btn-delete-list {
+  background-color: #E82623;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+
+.btn-delete-list:hover {
+  background-color: #FF2A26;
+  color: #ffffff;
+}
+
+.btn-add {
+  background-color: #0B80D9;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.btn-add:hover {
+  background-color: #0C92F6;
+  color: #ffffff;
+}

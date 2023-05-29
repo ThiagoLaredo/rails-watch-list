@@ -7,10 +7,22 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
   <body>
+<header class="header">
+  <div class="container">
+    <div class="header_menu">
+      <%= image_tag "logo.svg", width: 200 %>
+
+      <nav id="menu">
+      <li><%= link_to "Listas", lists_path, class:"btn-back" %></li>
+      </nav>
+
+      </div>
+    </div>
+  </header>
+
     <%= yield %>
   </body>
 </html>
